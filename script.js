@@ -8,7 +8,6 @@ const perguntas = [
     {
         enunciado: "Pergunta 1 - Você acha que o uso das plataformas está auxiliando no aprendizado?", 
         alternativas: ["Sim, serve como um grande suporte", "Não, apenas uma obrigação e servindo apenas como certificação."]
-
     }, 
     {
         enunciado: "Pergunta 2 - Os materiais educativos digitais podem ser personalizados para atender melhor às necessidades individuais de aprendizagem?", 
@@ -28,6 +27,7 @@ let perguntaAtual;
 function mostraPerguntas() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntas[atual].enunciado;
+    caixaAlternativas.textContent = "";
     mostraAlternativas();
 }
 
