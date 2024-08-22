@@ -52,4 +52,5 @@ button:hover{
 .caixa-alternativas{
     display: flex;
     align-items: stretch;
+    gap: 30px;
 }
