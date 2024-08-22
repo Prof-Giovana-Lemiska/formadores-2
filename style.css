@@ -49,8 +49,3 @@ button:hover{
     color: var(--cor-principal);
 }
 
-.caixa-alternativas{
-    gap: 30px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
