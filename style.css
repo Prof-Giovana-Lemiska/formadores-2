@@ -30,6 +30,8 @@ h1{
 .caixa-perguntas{
     padding-bottom: 10px;
     gap: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 
@@ -41,7 +43,7 @@ button{
     padding: 15px;
     transition: background-color 0.3s;
     width: 350px;
-    margin-bottom: 20px;
+    
 }
 
 button:hover{
