@@ -29,9 +29,7 @@ h1{
 
 .caixa-perguntas{
     padding-bottom: 10px;
-    gap: 30px;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    
 }
 
 
@@ -51,3 +49,8 @@ button:hover{
     color: var(--cor-principal);
 }
 
+.caixa-alternativas{
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
