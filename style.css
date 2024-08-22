@@ -49,3 +49,7 @@ button:hover{
     color: var(--cor-principal);
 }
 
+.caixa-alternativas{
+    display: flex;
+    align-items: stretch;
+}
